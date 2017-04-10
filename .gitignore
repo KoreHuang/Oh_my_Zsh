@@ -1,8 +1,33 @@
-# custom files
-custom/
-!custom/plugins/example
-!custom/example.zsh
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# temp files directories
-cache/
-log/
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
